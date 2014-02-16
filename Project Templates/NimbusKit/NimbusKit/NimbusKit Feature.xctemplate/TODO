@@ -1,0 +1,4 @@
+- Lowercase the feature folder's name (e.g. Core becomes core).
+- Set the relative path for the project's src folder to the actual src folder on disk.
+- Move the project's "src" folder to the root and rename the feature folder (e.g. Core) to "Library".
+- Delete this TODO.
