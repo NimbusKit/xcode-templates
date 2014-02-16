@@ -2,10 +2,57 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Identifier</key>
+	<string>com.nimbuskit.template.nimbuskitBase</string>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
-	<key>Identifier</key>
-	<string>com.nimbus.template.base</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Product Name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>Your new product&apos;s name</string>
+			<key>EmptyReplacement</key>
+			<string>ProductName</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>bundleIdentifierPrefix</string>
+			<key>Name</key>
+			<string>NimbusKit Identifier</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>Your company&apos;s bundle identifier prefix</string>
+			<key>Default</key>
+			<string>com.nimbuskit</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>bundleIdentifier</string>
+			<key>Name</key>
+			<string>Bundle Identifier</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>Your new product&apos;s bundle identifier</string>
+			<key>Default</key>
+			<string>com.nimbuskit.___VARIABLE_productName:RFC1034Identifier___</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
 	<key>Project</key>
 	<dict>
 		<key>SharedSettings</key>
@@ -117,37 +164,6 @@
 		<key>*:*:importFoundation</key>
 		<string>#import &lt;Foundation/Foundation.h&gt;
 </string>
-		<key>Nimbus___PACKAGENAME___-Prefix.pch</key>
-		<dict>
-			<key>Beginning</key>
-			<string>//
-// Copyright 2011-2014 NimbusKit
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//    http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-//
-</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
-		<key>Nimbus___PACKAGENAME___-Prefix.pch:objC</key>
-		<dict>
-			<key>Beginning</key>
-			<string>#ifdef __OBJC__</string>
-			<key>End</key>
-			<string>#endif</string>
-			<key>Indent</key>
-			<integer>1</integer>
-		</dict>
 	</dict>
 </dict>
 </plist>

@@ -5,12 +5,12 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>com.nimbus.template.objectiveCUnitTestBundle</string>
+	<string>com.nimbuskit.template.objectiveCUnitTestBundle</string>
 	<key>TargetOnly</key>
 	<true/>
 	<key>Ancestors</key>
 	<array>
-		<string>com.nimbus.template.bundleBase</string>
+		<string>com.nimbuskit.template.nimbuskitBundleBase</string>
 	</array>
 	<key>IsUnitTest</key>
 	<true/>
@@ -153,12 +153,12 @@
 	</array>
 	<key>Nodes</key>
 	<array>
-		<string>Nimbus___PACKAGENAME___-Info.plist:UnitTesting</string>
+		<string>___PACKAGENAME___-Info.plist:UnitTesting</string>
 		<string>___PACKAGENAMEASIDENTIFIER___.m</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>Nimbus___PACKAGENAME___-Info.plist:UnitTesting</key>
+		<key>___PACKAGENAME___-Info.plist:UnitTesting</key>
 		<string>&lt;key&gt;CFBundleExecutable&lt;/key&gt;
 &lt;string&gt;${EXECUTABLE_NAME}&lt;/string&gt;
 &lt;key&gt;CFBundleInfoDictionaryVersion&lt;/key&gt;

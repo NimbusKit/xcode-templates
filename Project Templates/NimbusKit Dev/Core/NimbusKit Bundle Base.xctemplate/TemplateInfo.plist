@@ -5,10 +5,10 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>com.nimbus.template.bundleBase</string>
+	<string>com.nimbuskit.template.nimbuskitBundleBase</string>
 	<key>Ancestors</key>
 	<array>
-		<string>com.nimbus.template.base</string>
+		<string>com.nimbuskit.template.nimbuskitBase</string>
 	</array>
 	<key>Targets</key>
 	<array>
@@ -16,22 +16,18 @@
 			<key>SharedSettings</key>
 			<dict>
 				<key>INFOPLIST_FILE</key>
-				<string>tests/Nimbus___PACKAGENAME___-Info.plist</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>lib/Nimbus___PACKAGENAME___-Prefix.pch</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
+				<string>___PACKAGENAME___/___PACKAGENAME___-Info.plist</string>
 			</dict>
 		</dict>
 	</array>
 	<key>Nodes</key>
 	<array>
-		<string>Nimbus___PACKAGENAME___-Info.plist:CFBundleIdentifier</string>
+		<string>___PACKAGENAME___-Info.plist:CFBundleIdentifier</string>
 		<string>en.lproj/InfoPlist.strings:Instructions</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>Nimbus___PACKAGENAME___-Info.plist</key>
+		<key>___PACKAGENAME___-Info.plist</key>
 		<dict>
 			<key>Beginning</key>
 			<string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
@@ -51,7 +47,7 @@
 			<key>SubstituteMacros</key>
 			<true/>
 		</dict>
-		<key>Nimbus___PACKAGENAME___-Info.plist:CFBundleIdentifier</key>
+		<key>___PACKAGENAME___-Info.plist:CFBundleIdentifier</key>
 		<string>&lt;key&gt;CFBundleIdentifier&lt;/key&gt;
 &lt;string&gt;___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.${PRODUCT_NAME:rfc1034identifier}&lt;/string&gt;
 </string>

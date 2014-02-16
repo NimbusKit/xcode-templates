@@ -4,35 +4,14 @@
 <dict>
 	<key>Ancestors</key>
 	<array>
-		<string>com.nimbus.template.objectiveCUnitTestBundle</string>
-		<string>com.nimbus.template.iPhoneBase</string>
+		<string>com.nimbuskit.template.objectiveCUnitTestBundle</string>
+		<string>com.nimbuskit.template.nimbuskitLibBase</string>
+		<string>com.apple.dt.unit.iPhoneBase</string>
 	</array>
 	<key>Identifier</key>
-	<string>com.nimbus.template.cocoaTouchApplicationUnitTestBundle</string>
+	<string>com.nimbuskit.template.cocoaTouchFrameworkUnitTestBundle</string>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
-	<key>Options</key>
-	<array>
-		<dict>
-			<key>Identifier</key>
-			<string>coreData</string>
-			<key>Units</key>
-			<dict>
-				<key>true</key>
-				<dict>
-					<key>Targets</key>
-					<array>
-						<dict>
-							<key>Frameworks</key>
-							<array>
-								<string>CoreData</string>
-							</array>
-						</dict>
-					</array>
-				</dict>
-			</dict>
-		</dict>
-	</array>
 	<key>Targets</key>
 	<array>
 		<dict>
@@ -45,12 +24,16 @@
 				<string>Foundation</string>
 				<string>UIKit</string>
 			</array>
+			<key>ProductDependencies</key>
+			<array>
+				<integer>0</integer>
+			</array>
 			<key>SharedSettings</key>
 			<dict>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<string>$(SDKROOT)/Developer/Library/Frameworks $(inherited)</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>___PARENTPACKAGENAME___/___PARENTPACKAGENAME___-Prefix.pch</string>
+				<string>lib/___PARENTPACKAGENAME___-Prefix.pch</string>
 			</dict>
 		</dict>
 	</array>

@@ -5,10 +5,11 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>com.nimbus.template.objectiveCApplication</string>
+	<string>com.nimbuskit.template.objectiveCApplication</string>
 	<key>Ancestors</key>
 	<array>
-		<string>com.nimbus.template.bundleBase</string>
+		<string>com.nimbuskit.template.nimbuskitBundleBase</string>
+		<string>com.nimbuskit.template.nimbuskitAppBase</string>
 	</array>
 	<key>Targets</key>
 	<array>
