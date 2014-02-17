@@ -14,13 +14,13 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Product Name</string>
+			<string>Feature Name</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Description</key>
-			<string>Your new product&apos;s name</string>
+			<string>The NimbusKit features&apos;s name</string>
 			<key>EmptyReplacement</key>
-			<string>ProductName</string>
+			<string>FeatureName</string>
 			<key>Type</key>
 			<string>text</string>
 		</dict>
