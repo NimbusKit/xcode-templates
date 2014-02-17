@@ -33,6 +33,16 @@
 			<key>Path</key>
 			<string>deps</string>
 		</dict>
+		<key>../LICENSE</key>
+		<dict>
+			<key>Path</key>
+			<string>LICENSE</string>
+		</dict>
+		<key>../NOTICE</key>
+		<dict>
+			<key>Path</key>
+			<string>NOTICE</string>
+		</dict>
 		<key>Nimbus___PACKAGENAMEASIDENTIFIER___.h</key>
 		<dict>
 			<key>Path</key>
@@ -50,6 +60,8 @@
 	<array>
 		<string>../.gitignore</string>
 		<string>../deps</string>
+		<string>../LICENSE</string>
+		<string>../NOTICE</string>
 		<string>../lib/___PACKAGENAME___-Prefix.pch:objC:importFoundation</string>
 		<string>Nimbus___PACKAGENAMEASIDENTIFIER___.h</string>
 	</array>

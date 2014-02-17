@@ -12,6 +12,21 @@
 	<string>This template provides a starting point for a NimbusKit application. It provides just an application delegate and a window.</string>
 	<key>Definitions</key>
 	<dict>
+		<key>../.gitignore</key>
+		<dict>
+			<key>Path</key>
+			<string>gitignore</string>
+		</dict>
+		<key>../LICENSE</key>
+		<dict>
+			<key>Path</key>
+			<string>LICENSE</string>
+		</dict>
+		<key>../NOTICE</key>
+		<dict>
+			<key>Path</key>
+			<string>NOTICE</string>
+		</dict>
 		<key>AppDelegate.m:applicationdidFinishLaunchingWithOptions</key>
 		<dict>
 			<key>Beginning</key>
@@ -29,6 +44,9 @@
 	</dict>
 	<key>Nodes</key>
 	<array>
+		<string>../.gitignore</string>
+		<string>../LICENSE</string>
+		<string>../NOTICE</string>
 		<string>___PACKAGENAME___-Prefix.pch:Availability:iPhoneAvailability:3</string>
 	</array>
 	<key>Concrete</key>
